@@ -62,14 +62,14 @@
 
 .lineOne {
     background-color: #0D4B6E;
-    padding: 1px;
+    height: 3px;
     width: 100%;
 }
 .lineTwo {
     background-color: #0D4B6E;
-    padding: 2px;
+    height: 7px;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .options-text {
@@ -103,6 +103,7 @@
     padding: 50px;
 }
 .footer a {
+    font-family: "Helvetica Neue light", Helvetica, sans-serif;
     text-decoration: underline;
     color: #fff;
 }
