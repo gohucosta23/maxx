@@ -1,11 +1,11 @@
+
+/* Erasing all pre-set css */
 * {
     padding: 0;
     margin: 0;
 }
 
-.container {
-    padding: 50px;
-}
+/* ------ Header ------- */
 
 .header {
     display: flex;
@@ -13,7 +13,7 @@
     align-items: center;
     padding: 50px 150px;
 }
-
+/* Targeting the first <p> tag in this div */
 .devInfo p:first-child{
     font-family: "Helvetica Neue Bold", Helvetica, sans-serif;
     font-weight: bold;
@@ -30,11 +30,15 @@
     height: 150px;
 }
 
+/*  ------- Picture banner --------- */
+
 .hero {
     background: url("images/hero1.jpg") center center/cover;
     height: 500px;
     width: 100vw;
 }
+
+/*  ------- main-section ------------ */
 
 .main-section {
     padding: 50px;
@@ -48,6 +52,7 @@
     font-size: 40px;
 }
 
+/* Displaying the projects in a row. */
 .main {
     display: flex;
 }
@@ -60,11 +65,14 @@
     padding: 20px;
 }
 
+/* Top horizontal line. */
 .lineOne {
     background-color: #0D4B6E;
     height: 3px;
     width: 100%;
 }
+
+/* Bottom horizontal line. */
 .lineTwo {
     background-color: #0D4B6E;
     height: 7px;
@@ -94,6 +102,7 @@
     height: 300px;
 }
 
+/* -------- Footer -------- */
 .footer {
     font-family: "Helvetica Neue light", Helvetica, sans-serif;
     background-color: #3D3D3D;
